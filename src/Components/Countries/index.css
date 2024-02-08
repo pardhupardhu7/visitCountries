@@ -1,0 +1,39 @@
+.countries-list-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 90%;
+  max-height: 40vh;
+  overflow-y: scroll;
+
+  margin-left: 30px;
+}
+.main-container {
+  background-color: #161624;
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.visited-countries-list-container {
+  list-style-type: none;
+
+  display: flex;
+  margin: 3px;
+}
+.no-view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}

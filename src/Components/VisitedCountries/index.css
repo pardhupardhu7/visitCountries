@@ -1,0 +1,28 @@
+.country-image {
+  width: 300px;
+}
+.down {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.country-name {
+  color: #ffffffff;
+  font-family: 'Roboto';
+}
+.visited-country-item {
+  margin: 3px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+}
